@@ -1,0 +1,49 @@
+Console.WriteLine("\n");
+
+Console.WriteLine("Quem vai responder essa rodada?\n\nDigite 1 para homens e 2 para mulheres");
+escolha = Convert.ToInt32(Console.ReadLine());
+
+if (escolha == 1)
+{
+    Console.WriteLine("\nA.\nB.\nC.\nD.\nE.\n\nDigite a sua respotasta?");
+    string letra = Console.ReadLine();
+
+    if (letra == "" || letra == "")
+    {
+        Console.WriteLine("\nCerta resposta!\n\nPonto para os homens");
+
+        homens++;
+
+        Console.WriteLine("\nA pontuação dos homens é de: " + homens + " ponto\n");
+    }
+    else
+    {
+        Console.WriteLine("\nErrada Resposta!\n\nPonto para as mulhres!");
+
+        mulheres++;
+
+        Console.WriteLine("\nA pontuação das mulheres é de: " + mulheres + " ponto\n");
+    }
+}
+else if (escolha == 2)
+{
+    Console.WriteLine("\nA.\nB.\nC.\nD.\nE.\n\nDigite a sua respotasta?");
+    string letra = Console.ReadLine();
+
+    if (letra == "" || letra == "")
+    {
+        Console.WriteLine("\nCerta resposta!\n\nPonto para as mulheres");
+
+        mulheres++;
+
+        Console.WriteLine("\nA pontuação das mulheres é de: " + mulheres + " ponto\n");
+    }
+    else
+    {
+        Console.WriteLine("\nErrada Resposta!\n\nPonto para os homens!");
+
+        homens++;
+
+        Console.WriteLine("\nA pontuação dos homens é de: " + homens + " ponto\n");
+    }
+}
