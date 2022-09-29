@@ -10,7 +10,7 @@ int escolha = Convert.ToInt32(Console.ReadLine());
 
 if (escolha == 1)
 {
-    Console.WriteLine("\nA. Abraão\nB. Davi\nC. Isaque\nD. José\nE. Salomão\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Abraão\nB. Davi\nC. Isaque\nD. José\nE. Salomão\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "C" || letra == "c")
@@ -32,7 +32,7 @@ if (escolha == 1)
 }
 else if (escolha == 2)
 {
-    Console.WriteLine("\nA. Abraão\nB. Davi\nC. Isaque\nD. José\nE. Salomão\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Abraão\nB. Davi\nC. Isaque\nD. José\nE. Salomão\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "C" || letra == "c")
@@ -60,7 +60,7 @@ escolha = Convert.ToInt32(Console.ReadLine());
 
 if (escolha == 1)
 {
-    Console.WriteLine("\nA. Davi\nB. Salomão\nC. Moises\nD. Jocó\nE. Daniel\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Davi\nB. Salomão\nC. Moises\nD. Jocó\nE. Daniel\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "B" || letra == "b")
@@ -82,7 +82,7 @@ if (escolha == 1)
 }
 else if (escolha == 2)
 {
-    Console.WriteLine("\nA. Davi\nB. Salomão\nC. Moises\nD. Jocó\nE. Daniel\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Davi\nB. Salomão\nC. Moises\nD. Jocó\nE. Daniel\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "B" || letra == "b")
@@ -110,7 +110,7 @@ escolha = Convert.ToInt32(Console.ReadLine());
 
 if (escolha == 1)
 {
-    Console.WriteLine("\nA. Salmos\nB. 1Reis\nC. 2Samuel\nD. 2Reis\nE. Juízes\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Salmos\nB. 1Reis\nC. 2Samuel\nD. 2Reis\nE. Juízes\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "E" || letra == "e")
@@ -132,7 +132,7 @@ if (escolha == 1)
 }
 else if (escolha == 2)
 {
-    Console.WriteLine("\nA. Salmos\nB. 1Reis\nC. 2Samuel\nD. 2Reis\nE. Juízes\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Salmos\nB. 1Reis\nC. 2Samuel\nD. 2Reis\nE. Juízes\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "E" || letra == "e")
@@ -160,7 +160,7 @@ escolha = Convert.ToInt32(Console.ReadLine());
 
 if (escolha == 1)
 {
-    Console.WriteLine("\nA. Dragão\nB. Anjo\nC. Humano\nD. Animal\nE. Dinossauro\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Dragão\nB. Anjo\nC. Humano\nD. Animal\nE. Dinossauro\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "A" || letra == "a")
@@ -182,7 +182,7 @@ if (escolha == 1)
 }
 else if (escolha == 2)
 {
-    Console.WriteLine("\nA. Dragão\nB. Anjo\nC. Humano\nD. Animal\nE. Dinossauro\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA. Dragão\nB. Anjo\nC. Humano\nD. Animal\nE. Dinossauro\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "A" || letra == "a")
