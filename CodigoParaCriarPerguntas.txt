@@ -5,7 +5,7 @@ escolha = Convert.ToInt32(Console.ReadLine());
 
 if (escolha == 1)
 {
-    Console.WriteLine("\nA.\nB.\nC.\nD.\nE.\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA.\nB.\nC.\nD.\nE.\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "" || letra == "")
@@ -27,7 +27,7 @@ if (escolha == 1)
 }
 else if (escolha == 2)
 {
-    Console.WriteLine("\nA.\nB.\nC.\nD.\nE.\n\nDigite a sua respotasta?");
+    Console.WriteLine("\nA.\nB.\nC.\nD.\nE.\n\nDigite a sua resposta?");
     string letra = Console.ReadLine();
 
     if (letra == "" || letra == "")
